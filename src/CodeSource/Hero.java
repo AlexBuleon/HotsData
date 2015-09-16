@@ -13,7 +13,7 @@ public class Hero {
 	private String name;
 	private int role;
 	private int type;
-	private Stat[] baseStats;
-	private Stat[] statsPerLevel;
+	private Stat[] stats;
+	
 	
 }
