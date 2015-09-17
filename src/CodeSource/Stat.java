@@ -14,6 +14,14 @@ public class Stat {
 
 	}
 
+	public Stat(String name, double value) {
+
+		this.name = name;
+		this.value = value;
+		this.valuePerLevel = 0;
+
+	}
+
 	public String getName() {
 		return this.name;
 	}
