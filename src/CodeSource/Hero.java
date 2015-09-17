@@ -57,7 +57,7 @@ public class Hero {
 		data = data.substring(data.indexOf("<th> Energy") + 23);
 		Double energy = Double.valueOf(data.substring(0, data.indexOf("</td>") - 1));
 
-		data = data.substring(data.indexOf("<th> Energy Rengen") + 30);
+		data = data.substring(data.indexOf("<th> Energy Regen") + 29);
 		Double energyRegen = Double.valueOf(data.substring(0, data.indexOf("</td>") - 1));
 
 		data = data.substring(data.indexOf("<th> Speed") + 22);
