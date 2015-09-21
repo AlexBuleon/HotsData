@@ -33,6 +33,7 @@ public class HotsData {
 	}
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		Hero hero = new Hero("Falstad");
 	}
 }
